@@ -8,9 +8,24 @@ namespace Year3ConsoleApp.Testing
 {
     public class Calculator
     {
-        public static void Additions(int a, int b)
+        public static void Additions(int num1, int num2)
         {
-            Console.WriteLine($"Your result: {a} + {b} = " + (a + b));
+            Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2));
+        }
+
+        public static void Subtraction(int num1, int num2)
+        {
+            Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
+        }
+
+        public static void Multiplication(int num1, int num2)
+        {
+            Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
+        }
+
+        public static void Division(int num1, int num2)
+        {
+            Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
         }
     }
 }

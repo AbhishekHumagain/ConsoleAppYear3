@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using Year3ConsoleApp.Basics;
 using Year3ConsoleApp.Testing;
 
 
@@ -35,13 +36,16 @@ switch (Console.ReadLine())
         Calculator.Additions(num1, num2);
         break;
     case "2":
-        Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
+        Calculator.Subtraction(num1, num2);
         break;
     case "3":
-        Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
+        Calculator.Multiplication(num1, num2);
         break;
     case "4":
-        Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
+        Calculator.Division(num1, num2);
+        break;
+    default:
+        Interpolation.StringInterpolation();
         break;
 }
 

@@ -26,6 +26,10 @@ Console.WriteLine("Press 1 for Addition");
 Console.WriteLine("Press 2 for Subtraction");
 Console.WriteLine("Press 3 for Multiplication");
 Console.WriteLine("Press 4 for Division");
+Console.WriteLine("Press 5 for Jagged Arrays");
+Console.WriteLine("Press 6 for SingleDimensional Arrays");
+Console.WriteLine("Press 7 for ImplicitlyTyped Arrays");
+Console.WriteLine("Press 8 for MultiDimensional Arrays");
 Console.Write("Your option? ");
 
 
@@ -43,6 +47,18 @@ switch (Console.ReadLine())
         break;
     case "4":
         Calculator.Division(num1, num2);
+        break;
+    case "5":
+        Arrays.JaggedArray();
+        break;
+    case "6":
+        Arrays.SingleDimensionalArray();
+        break;
+    case "7":
+        Arrays.ImplicitlyTypedArray();
+        break;
+    case "8":
+        Arrays.MultiDimensionalArray();
         break;
     default:
         Interpolation.StringInterpolation();

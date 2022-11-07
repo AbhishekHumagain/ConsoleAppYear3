@@ -39,7 +39,7 @@ namespace Year3ConsoleApp.Week2
                 case "1":
                     Console.WriteLine("Apple");
                 break;
-                    
+
                 case "2":
                     Console.WriteLine("Orange");
                 break;
@@ -56,25 +56,36 @@ namespace Year3ConsoleApp.Week2
             {
                 Console.WriteLine(num1);
                     num1++;
+
+                //output = 1,2,3,4,5,6,7,8,9
             }
         }
 
-        public static void DoWhileStatement(int num1)
+        public static void DoWhileStatement(int num1) 
         {
             do
             {
                 Console.WriteLine(num1);
-                num1++; //it will add 1 ☻in num1 value
+                num1++; //it will add 1 in num1 value
             }
             while (num1 < 10);
         }
 
         public static void ForLoop(int num1)
         {
+            int[] num = { 0, 1, 1, 2, 3, 5, 8, 13 };
+
+            for (int i = 0; i < num.Length; i++)
+            {
+                Console.WriteLine(i);
+            }
+
             for (int i = num1;  i < 5; i++)
             {
                 Console.WriteLine(i);
             }
+
+            //output = 1,2,3,4
         }
 
         public static void ForEachLoop()
@@ -86,5 +97,10 @@ namespace Year3ConsoleApp.Week2
             }
         }
 
+
+        public int ReturnStatement()
+        {
+            return 1;
+        }
     }
 }

@@ -3,6 +3,7 @@
 using Year3ConsoleApp.Basics;
 using Year3ConsoleApp.Testing;
 using Year3ConsoleApp.Week2;
+using Year3ConsoleApp.Week3;
 
 
 //getting input from users
@@ -37,6 +38,10 @@ Console.WriteLine("Press 11 for While Statement Example");
 Console.WriteLine("Press 12 for Do-While Statement Example");
 Console.WriteLine("Press 13 for For Statement Example");
 Console.WriteLine("Press 14 for For-Each Statement Example");
+Console.WriteLine("Press 15 for Prime number check Example");
+Console.WriteLine("Press 16 for OddEven number check Example");
+Console.WriteLine("Press 17 for swap two numbers check Example");
+Console.WriteLine("Press 18 for search in arrays Example");
 Console.Write("Your option? ");
 
 var a = Console.ReadLine();
@@ -84,6 +89,18 @@ switch (a)
         break;
     case "14":
         ControlStatement.ForEachLoop();
+        break;
+    case "15":
+        Examples.IsPrime(num1);
+        break;
+    case "16":
+        Examples.OddEven(num1);
+        break;
+    case "17":
+        Examples.SwapNumbers(num1, num2);
+        break;
+    case "18":
+        Examples.SimpleSearchInArrays();
         break;
     default:
         Interpolation.StringInterpolation();

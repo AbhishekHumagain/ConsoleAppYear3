@@ -46,7 +46,7 @@ Console.WriteLine("Press 18 for search in arrays Example");
 Console.WriteLine("Press 19 for Encapsulation Example");
 Console.WriteLine("Press 20 for Inheritance Example");
 Console.WriteLine("Press 21 for Abstraction Example");
-Console.WriteLine("Press 21 for Polymorphism Example");
+Console.WriteLine("Press 22 for Polymorphism Example");
 Console.Write("Your option? ");
 
 var a = Console.ReadLine();

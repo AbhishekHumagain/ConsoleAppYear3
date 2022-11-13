@@ -15,6 +15,7 @@ namespace Year3ConsoleApp.Week4_OOP
         private string? TeacherName;
         private int TeacherAge;
 
+
         public string Name //property
         {
             get { return TeacherName; }

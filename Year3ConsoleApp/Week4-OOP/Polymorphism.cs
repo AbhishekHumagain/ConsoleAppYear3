@@ -37,8 +37,6 @@ namespace Year3ConsoleApp.Week4_OOP
             d.GetInfo();
             Polymorphism b = new Polymorphism();
             b.GetInfo();
-            Console.WriteLine("\nPress Enter Key to Exit..");
-            Console.ReadLine();
         }
     }
 }

@@ -133,3 +133,10 @@ Console.ReadKey();
 //https://www.programiz.com/csharp-programming/access-modifiers
 //https://www.geeksforgeeks.org/access-modifiers-in-c-sharp/
 //https://www.programiz.com/csharp-programming/abstract-class
+
+/*
+git*/
+//https://education.github.com/git-cheat-sheet-education.pdf
+//https://www.simplilearn.com/tutorials/git-tutorial/git-tutorial-for-beginner
+//https://www.javatpoint.com/git
+//https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/

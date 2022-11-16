@@ -70,7 +70,7 @@ namespace Year3ConsoleApp.Week4_OOP
             polymorphism.Hello();
             polymorphism.Hello("Multiple forms");
             polymorphism.Hello(1, 2);
-            polymorphism.Hello(a, b);
+            polymorphism.Hello("A", "b");
         }
     }
 }

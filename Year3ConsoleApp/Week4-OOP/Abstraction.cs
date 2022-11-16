@@ -35,7 +35,7 @@ namespace Year3ConsoleApp.Week4_OOP
     {
         public static void AbstractionCall()
         {
-            Abstraction abstraction = new AgeData(25); //creating reference of Age data class which refers to abstraction class instance
+            AgeData abstraction = new AgeData(25); //creating reference of Age data class which refers to abstraction class instance
 
             string result = abstraction.TeacherName();
             Console.WriteLine(result);

@@ -4,6 +4,7 @@ using Year3ConsoleApp.Basics;
 using Year3ConsoleApp.Testing;
 using Year3ConsoleApp.Week2;
 using Year3ConsoleApp.Week3;
+using Year3ConsoleApp.Week4_OOP;
 
 
 //getting input from users
@@ -42,6 +43,10 @@ Console.WriteLine("Press 15 for Prime number check Example");
 Console.WriteLine("Press 16 for OddEven number check Example");
 Console.WriteLine("Press 17 for swap two numbers check Example");
 Console.WriteLine("Press 18 for search in arrays Example");
+Console.WriteLine("Press 19 for Encapsulation Example");
+Console.WriteLine("Press 20 for Inheritance Example");
+Console.WriteLine("Press 21 for Abstraction Example");
+Console.WriteLine("Press 22 for Polymorphism Example");
 Console.Write("Your option? ");
 
 var a = Console.ReadLine();
@@ -102,6 +107,18 @@ switch (a)
     case "18":
         Examples.SimpleSearchInArrays();
         break;
+    case "19":
+        DriverClass.CallEncapsulation();
+        break;
+    case "20":
+        MainClass.AssignValue();
+        break;
+    case "21":
+        CallingClass.AbstractionCall();
+        break;
+    case "22":
+        PolyMainClass.PolyMainMethod();
+        break;
     default:
         Interpolation.StringInterpolation();
         break;
@@ -110,3 +127,9 @@ switch (a)
 // Wait for the user to respond before closing.
 Console.Write("Press any key to close the Calculator console app...");
 Console.ReadKey();
+
+
+//Reference
+//https://www.programiz.com/csharp-programming/access-modifiers
+//https://www.geeksforgeeks.org/access-modifiers-in-c-sharp/
+//https://www.programiz.com/csharp-programming/abstract-class

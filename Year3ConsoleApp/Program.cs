@@ -5,6 +5,7 @@ using Year3ConsoleApp.Testing;
 using Year3ConsoleApp.Week2;
 using Year3ConsoleApp.Week3;
 using Year3ConsoleApp.Week4_OOP;
+using Year3ConsoleApp.Week5;
 
 
 //getting input from users
@@ -47,6 +48,9 @@ Console.WriteLine("Press 19 for Encapsulation Example");
 Console.WriteLine("Press 20 for Inheritance Example");
 Console.WriteLine("Press 21 for Abstraction Example");
 Console.WriteLine("Press 22 for Polymorphism Example");
+Console.WriteLine("Press 23 for JsonSerialize Example");
+Console.WriteLine("Press 24 for JsonDeserialize Example");
+Console.WriteLine("Press 25 for List Example");
 Console.Write("Your option? ");
 
 var a = Console.ReadLine();
@@ -118,6 +122,15 @@ switch (a)
         break;
     case "22":
         PolyMainClass.PolyMainMethod();
+        break;
+    case "23":
+        Json.SerializeExample();
+        break;
+    case "24":
+        Json.DeserializeExample();
+        break;
+    case "25":
+        ListData.Newlist();
         break;
     default:
         Interpolation.StringInterpolation();

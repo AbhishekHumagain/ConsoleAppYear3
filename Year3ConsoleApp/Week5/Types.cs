@@ -31,7 +31,7 @@ namespace Year3ConsoleApp.Week5
 
 
             // Current DateTime value
-            DateTime nowLocal = DateTime.Now; // As determined by this computer
+            DateTime nowLocal = DateTime.Now.AddMonths(5); // As determined by this computer
             DateTime nowUtc = DateTime.UtcNow; // UTC = GMT = Z Time or Zulu Time
             DateTime today = DateTime.Today; // Same as DateTime.Now but time is 00:00:00
             DateTime tomorrow = today.AddDays(1);

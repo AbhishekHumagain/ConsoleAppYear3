@@ -50,6 +50,7 @@ Console.WriteLine("Press 21 for Abstraction Example");
 Console.WriteLine("Press 22 for Polymorphism Example");
 Console.WriteLine("Press 23 for JsonSerialize Example");
 Console.WriteLine("Press 24 for JsonDeserialize Example");
+Console.WriteLine("Press 25 for List Example");
 Console.Write("Your option? ");
 
 var a = Console.ReadLine();
@@ -127,6 +128,9 @@ switch (a)
         break;
     case "24":
         Json.DeserializeExample();
+        break;
+    case "25":
+        ListData.Newlist();
         break;
     default:
         Interpolation.StringInterpolation();
